@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @RequestMapping("/hello")
     public String web() {
-        String result = "hello Spring Boot！这是一个用Spring Boot开发的网站。";
+        String result = "hello Spring Boo！这是一个用Spring Boot开发的网站。";
         return result;
     }
 }
